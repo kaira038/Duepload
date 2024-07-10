@@ -1,0 +1,427 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FAFAFA !important;
+}
+a,span{
+    text-decoration:none !important;
+    display: inline-block !important;
+}
+.my-btn{
+    padding: 10px 30px;
+    font-weight: 600;
+    border-radius: 15px;
+}
+.my-btn-outline{
+    border: 1px solid #0B0D0E;
+    color: #0B0D0E;
+}
+.my-btn-solid{
+    border: 1px solid #651FFF;
+    background-color: #651FFF;
+    color: #FFFFFF;
+}
+.text-primary-color{
+    color: #00E5FF;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 90% !important;
+    margin: 0px auto;
+}
+/* banner-styling */
+.banner{
+    padding: 100px 0px;
+    background:url("./image/banner-bg-img.png") no-repeat center;
+    background-size: cover;
+}
+.banner-wrapper>div h1{
+    font-weight: bold;
+    font-size: 46px;
+    color: #FFFFFF;
+}
+.banner-wrapper>div p{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 24px;
+}
+.banner-wrapper>div:first-child>div >a:last-child{
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+/* IPFS - section styling */
+.network{
+    margin: 100px auto;
+}
+.network h1{
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    columns: #0B0D0E;
+}
+.network>p{
+    width:55%;
+    margin: 25px auto;
+    color: #838696;
+    font-size: 16px;
+    text-align: center;
+}
+.IPFS-flex>div{
+    background-color: #ECECFE;   
+    padding: 45px;
+    border-radius: 24px;
+}
+.IPFS-flex>div h3{
+    color: #651FFF;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 25px 0px 15px 0px;
+}
+.IPFS-flex>div p{
+    color: #651FFF;
+    font-size: 16px;
+}
+/* team-section styling */
+.Team{
+    margin: 100px 0px;
+}
+.team{
+    margin-top: 70px;
+}
+.team>div{
+   align-content: center;
+}
+.team-wrapper>h1{
+    color: #0B0D0E;
+    font-weight: bold;
+    font-size: 46px;
+    text-align: center;
+}
+.team-wrapper>p{
+    color: #838696;
+    font-size: 16px;
+    padding-top: 26px;
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+}
+.team>div>h1{
+    font-size: 46px;
+    font-weight: bold;
+    color: #0B0D0E;
+}
+.team>div>h1 span{
+    color:#651FFF;
+}
+.team>div>p{
+    color: #838696;
+    font-size: 20px;
+    line-height: 32px;
+    width: 72%;
+    margin: 40px 0px;
+}
+.Files{
+    margin: 100px 0px;
+}
+.file-wrapper>div{
+    background-color:#E0F7FA;
+    padding: 0px 40px;
+    padding-top: 40px;
+    border-radius: 22px;
+}
+.file-wrapper>div>h1{
+    color: #0B0D0E;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.file-wrapper>div>p{
+    color: #838696;
+    font-size: 18px;
+    text-align: center;
+    width: 73%;
+    margin: 20px auto;
+    margin-bottom: 0px;
+}
+
+/* works section styling */
+.Works{
+    margin: 100px 0px;
+    background-image:linear-gradient(#F2EEEB,#ECECFE) 
+}
+.work>div>h1{
+    color: #0B0D0E;
+    font-size: 46px;
+    font-weight: bold;
+}
+.work>div>p{
+    color: #5C5F6E;
+    font-size: 18px;
+    line-height: 29px;
+    margin: 25px 0px;
+}
+.work>div:first-child{
+    padding: 20px 80px;
+}
+.work{
+    padding: 50px 0px;
+}
+.work>div>div>a{
+    color: #0B0D0E;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Pricing plan section styling */
+.pricing>h1{
+    color:#0B0D0E;
+    font-size: 46px;
+    font-weight: bold;
+}
+.price-wrapper>div{
+    background-color: #FAFAFA;
+    border: 1px solid #ECECFE;
+    border-radius: 20px;
+    padding:52px 20px;
+    
+}
+.pricing>p{
+    color: #5C5F6E;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.price{
+    margin-top: 90px;
+    margin-bottom: 20px;
+    border: 1px solid#ECECFE;
+    background-color: #ECECFE;
+    border-radius: 80px;
+    width: 367px;
+    height: 62px;
+    padding: 15px  15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #651FFF;
+    position: relative;
+}
+.price-wrapper>div>div>h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+.price-wrapper>div>div:first-child h3:last-child{
+    border: 1px solid #651FFF;
+    background-color: #ECECFE;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.price-wrapper>div>div h1{
+    color: #0B0D0E;
+    font-size: 46px;
+    font-weight: bold;
+}
+.price-wrapper>div>p{
+    color: #838696;
+    font-size: 16px;
+}
+.price-wrapper>div>a{
+    text-align: center;
+    border: 1px solid #ECECFE;
+    background-color: #ECECFE;
+    border-radius: 12px;
+    margin: 30px 0px;
+}
+.price-wrapper>div>div>div{
+    margin: 20px 0px;
+}
+.price-wrapper>div{
+    box-shadow: #ECECFE 2px 5px 5px;
+    margin-bottom: 30px;
+}
+.pricing>div:last-child>a{
+    width: 250px;
+    text-align: center;
+}
+.pricing>div:last-child>a:first-child{
+    font-size: 18px;
+    font-weight: bold;
+    color:#FFFFFF ;
+}
+.pricing>div:last-child>a:last-child{
+    font-size: 18px;
+    font-weight: bold;
+    color: #0E0F10;
+}
+.price-wrapper{
+    position: relative;
+    z-index: 0;
+}
+.price-wrapper>img{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    z-index: 2;
+}
+.pricing>div:last-child{
+    margin: 80px 0px;
+}
+.Price{
+    margin: 150px 0px;
+}
+.price>a{
+   color: #651FFF;
+   padding: 20px;
+}
+.price>a:hover{
+    background-color:#651FFF;
+    color: white;
+    border: 1px solid #651FFF;
+    border-radius: 35px;
+    padding: 8px 30px;
+    width: 180px;
+    text-align: center;
+}
+.pricing{
+    position: relative;
+}
+.pricing>img{
+    position: absolute;
+    bottom: 15px;
+    right: -141px;
+    z-index: -1;
+}
+.price-wrapper>div:nth-child(2){
+    border: 3px solid black;
+    position: relative;
+    overflow: hidden;
+}
+.price-wrapper>div:nth-child(2)>div p{
+    position: absolute;
+    background-color: #263238;
+    border-radius: 30px;
+    padding: 25px 30px;
+    color: #ffffff;
+    height: 46px;
+    top: -25px;
+    left: 139px;
+}
+
+
+
+
+/* store section styling */
+.store{
+    background-color: #E0F7FA;
+    padding: 100px 0px;
+}
+.store-wrapper>h1{
+    font-size: 46px;
+    font-weight: bold;
+    color: #0E0F10;
+    text-align: center;
+}
+.store-wrapper>p{
+    color: #838696;
+    font-size: 18px;
+    text-align: center;
+}
+.store-wrapper>div>div{
+    padding: 25px;
+    margin: 10px auto;
+}
+.store-wrapper>div>div img{
+    margin-bottom: 40px;
+}
+.store-wrapper>div>div h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.store-wrapper>div>div p{
+    color: #838696;
+    font-size: 16px;
+}
+.store-wrapper>div{
+    position: relative;
+}
+.store-wrapper>div>div:nth-child(4){
+    position: absolute;
+    top: 49px;
+    left: 290px;
+}
+.store-wrapper>div>div:last-child{
+   position: absolute;
+   top: 49px;
+   right: 335px;
+}
+/* ready section styling */
+.Ready{
+    margin: 100px 0px;
+}
+.ready-wrapper>h1{
+    color: #0B0D0E;
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+}
+.ready-wrapper>p{
+    color: #838696;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.ready-wrapper>div>div{
+    padding: 35px;
+}
+.ready-wrapper>div>div:first-child{
+    background-color: #E0F7FA;
+    border-radius: 24px;
+    padding: 46px 55px;
+}
+.ready-wrapper>div>div:last-child{
+    background-color: #ECECFE;  
+    border-radius: 24px; 
+    padding: 46px 55px;
+}
+.ready-wrapper>div>div>h3{
+    font-size: 32px;
+    font-weight: bold;
+}
+.ready-wrapper>div>div>p{
+    font-size: 16px;
+    color: #838696;
+    margin: 20px 0px;
+}
+.ready-wrapper>div>div:first-child>div>a{
+    color: #00B8D4;
+    font-size: 16px;
+    font-weight: bold;
+}
+.ready-wrapper>div>div:last-child>div>a{
+    color: #651FFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer{
+    background-color: #1A284E;
+    color: #ffffff;
+    padding: 90px;
+    margin: 100px auto;
+}
+.footer-wrapper>div>div>p:first-child{
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer-wrapper>div>div:first-child>p:first-child{   
+    padding-bottom: 35px;
+}
+.footer-wrapper>div>div:first-child>p:nth-child(2){
+    line-height: 25px;
+}
+.footer-wrapper>div:last-child{
+    margin-top: 30px;
+}
